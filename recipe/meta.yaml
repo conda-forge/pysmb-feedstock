@@ -1,6 +1,6 @@
 {% set name = "pysmb" %}
-{% set version = "1.2.1" %}
-{% set sha256 = "ab721bbdcf27a4a8a77e2f82dfc6d5e33b4db88f5075160a8bc065722a1270be" %}
+{% set version = "1.2.2" %}
+{% set sha256 = "59ccd07537fb2a630b0d8cccd78e80180bcca72150d7322c318e1bdae927e125" %}
 
 package:
   name: {{ name|lower }}
