@@ -1,13 +1,13 @@
 {% set name = "pysmb" %}
-{% set version = "1.2.2" %}
-{% set sha256 = "59ccd07537fb2a630b0d8cccd78e80180bcca72150d7322c318e1bdae927e125" %}
+{% set version = "1.2.3" %}
+{% set sha256 = "b1971266952e18d0358c3b8316eadeef93443667dd39d91db16eeb7767e38a08" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('_', '-') }}-{{ version }}.zip
   sha256: {{ sha256 }}
 
 build:
