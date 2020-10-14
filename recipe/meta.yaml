@@ -22,7 +22,6 @@ requirements:
   run:
     - python
     - pyasn1
-    - pycrypto
 
 test:
   imports:
