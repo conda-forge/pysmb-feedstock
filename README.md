@@ -5,11 +5,13 @@ Home: https://github.com/miketeo/pysmb
 
 Package license: Zlib
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pysmb-feedstock/blob/master/LICENSE.txt)
 
 Summary: pysmb is an experimental SMB/CIFS library written in Python to support file sharing between Windows and Linux machine
 
+Development: https://github.com/miketeo/pysmb
 
+Documentation: https://github.com/miketeo/pysmb
 
 Current build status
 ====================
